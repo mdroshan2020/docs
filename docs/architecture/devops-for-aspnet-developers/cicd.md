@@ -41,7 +41,12 @@ In this section, you'll complete the following tasks:
 1. Select your account in the **Owner** drop-down, and enter *simple-feed-reader* in the **Repository name** textbox.
 1. Click the **Create repository** button.
 1. Open your local machine's command shell. Navigate to the directory in which the *simple-feed-reader* Git repository is stored.
-1. Rename the existing *origin* remote to *upstream*. Execute the following command:
+2. Try using *git init* if you are using it for first time in your machine.
+    ''''console
+    git init
+    ''''
+
+3. Rename the existing *origin* remote to *upstream*. Execute the following command:
 
     ```console
     git remote rename origin upstream
